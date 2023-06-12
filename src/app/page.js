@@ -1,13 +1,16 @@
-import Image from 'next/image'
+
 import Helm from './components/Helm'
-import styles from './page.module.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-    <Helm/>
-      </div>
-    </main>
+  return (<>
+    <Header/>
+    <section>
+      <Helm/>
+    </section>
+    <Footer/>
+    </>
   )
 }
