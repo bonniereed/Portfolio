@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return(
-      <div>Copyright Spudworx LLC</div>
+      <footer className='footer'>Copyright Spudworx LLC</footer>
     )
 }
 
