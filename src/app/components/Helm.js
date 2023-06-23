@@ -10,8 +10,8 @@ function Helm() {
     return(
         <nav class="navbar">
         <div class="container-fluid">
-            <ul>
-                <li>
+            <ul style={{listStyleType:'none', display:'flex', justifyContent:'space-around', margin:0, padding:0}}>
+                <li style={{color:'inherit', textDecoration:'none'}}>
                 <a  onClick={() => setContent(About)} >About Me</a></li>
                 <a onClick={() => setContent(Projects)} >Projects</a>
                 <a onClick={() => setContent(Contact)} >Contact Me</a>
