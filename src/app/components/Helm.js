@@ -1,8 +1,8 @@
 'use client'
 import React, { useState } from 'react';
-import About from './About';
+import About from './pages/About';
 import Projects from './Projects';
-import Contact from './Contact';
+import Contact from './pages/Contact';
 
 function Helm() {
     let [content, setContent] = useState(About);

@@ -1,7 +1,7 @@
 
 import Helm from './components/Helm'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/pages/Header'
+import Footer from './components/pages/Footer'
 
 
 export default function Home() {
