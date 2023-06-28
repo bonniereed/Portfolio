@@ -17,8 +17,9 @@ function Footer() {
           <a href="https://docs.google.com/document/d/125iDwRCvodsc1wb3oqWg6LH2N_irk4T0O9enKizgIEg/edit?usp=sharing" target="_blank"><Image class="resume" src={resume} width={50}height={50} alt="resume"/></a>
           <a href="mailto:“bonniejeanreed@gmail.com" target="_blank"><Image src={email}width={50}height={50} alt="email"/></a>
           <a href="sms:(+1)(469-418-1554)"><Image src={telephone} width={50}height={50}alt="sms"/></a>
+          <div style={{display:'flex', justifyContent: 'center'}}>Copyright Spudworx LLC</div>
           </div>
-      <div style={{justifyContent: 'center'}} >Copyright Spudworx LLC</div>
+      
     
     </div>
       </div>)
