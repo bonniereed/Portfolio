@@ -11,7 +11,7 @@ function About() {
 
 Created Brevity, an internal application for Support Engineers to easily access all tools in one place; Reducing Average Call Handle Time.
 
-I'm always looking to grow my personal and professional network. Feel free to connect via LinkedIn or contact me directly at BonnieJeanReed@gmail.com
+I'm always looking to grow my personal and professional network.
           </p>
           </div>
       </div>

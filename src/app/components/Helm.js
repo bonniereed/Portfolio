@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import About from './pages/About';
 import Projects from './Projects';
-import Contact from './pages/Contact';
+import Skills from './pages/Skills';
 
 function Helm() {
     let [content, setContent] = useState(About);
@@ -14,7 +14,7 @@ function Helm() {
                 <li  style={{color:'inherit', textDecoration:'none'}}>
                 <a  onClick={() => setContent(About)} >About Me</a></li>
                 <a onClick={() => setContent(Projects)} >Projects</a>
-                <a onClick={() => setContent(Contact)} >Contact Me</a>
+                <a onClick={() => setContent(Skills)} >Skills</a>
             </ul>
             <main>{content}</main>
             </div>

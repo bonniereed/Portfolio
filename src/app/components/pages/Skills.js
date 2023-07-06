@@ -1,6 +1,6 @@
 
 
-function Contact() {
+function Skills() {
     return (
 
         
@@ -9,5 +9,5 @@ function Contact() {
     );
   }
   
-  export default Contact;
+  export default Skills;
   
