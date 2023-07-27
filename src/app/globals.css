@@ -28,6 +28,40 @@ a:hover{
   color: #e57f84
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.spinner {
+  position: relative;
+  width: 45px;
+  height: 45px;
+
+  animation: loading 2s linear infinite;
+}
+
+.bubble-1,
+.bubble-2 {
+  position: absolute;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #4b9cdb;
+}
+
+.bubble-2 {
+  top: auto;
+  bottom: -50px;
+  background-color: red;
+}
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg) rotateX(720deg) rotateZ(1080deg);
+  }
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
