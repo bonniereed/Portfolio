@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import marketplace from 'src/img/marketplace.png'
+import mordle from 'src/img/mordle.jpeg'
 import {
-Card
+Card, CardBody, CardTitle, Button
 } from 'reactstrap';
 
 const items = [
   {
-    src:  'src/img/marketplace.png',
+    src:  {marketplace},
     altText: 'Marketplace Extension',
     caption: 'Marketplace Extension',
     description:'This project gives a user quick access to their listings',
@@ -13,7 +14,7 @@ const items = [
     key: 1,
   },
   {
-    src: 'src/img/mordle.jpeg',
+    src: {mordle},
     altText: 'Wordle Clone',
     caption: 'Wordle Clone',
     repo:'https://github.com/bonniereed/Mordle',
